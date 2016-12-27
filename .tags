@@ -1,0 +1,552 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALARM_CODES	basagc/config.py	/^ALARM_CODES = OrderedDict(sorted(_UNSORTED_ALARM_CODES.items()))$/;"	v
+Annunciator	basagc/gui.py	/^class Annunciator(QtWidgets.QLabel):$/;"	c
+BASE_DIR	basagc/config.py	/^BASE_DIR = os.path.dirname(os.path.dirname(__file__))$/;"	v
+Burn	basagc/maneuver.py	/^class Burn:$/;"	c
+Burn	basagc/programs.py	/^from basagc.maneuver import Burn$/;"	i
+COMP_ACTY_FLASH_DURATION	basagc/config.py	/^COMP_ACTY_FLASH_DURATION = 100$/;"	v
+COPYRIGHT	basagc/config.py	/^COPYRIGHT = "(C) 2014-2016 Tim Buchanan (cashelcomputers@gmail.com)"$/;"	v
+Computer	basagc/computer.py	/^class Computer:$/;"	c
+ControlRegister	basagc/gui.py	/^class ControlRegister:$/;"	c
+DEBUG	basagc/config.py	/^DEBUG = False$/;"	v
+DEVELOPERS	basagc/config.py	/^DEVELOPERS = "Tim Buchanan"$/;"	v
+DIRECTIONS	basagc/config.py	/^DIRECTIONS = [$/;"	v
+DISPLAY_UPDATE_INTERVAL	basagc/config.py	/^DISPLAY_UPDATE_INTERVAL = 500$/;"	v
+DSKY	basagc/dsky.py	/^class DSKY:$/;"	c
+DataRegister	basagc/gui.py	/^class DataRegister:$/;"	c
+Digit	basagc/gui.py	/^class Digit(QtWidgets.QLabel):$/;"	c
+DisplayVerb	basagc/verbs.py	/^class DisplayVerb(Verb):$/;"	c
+ENABLE_COMP_ACTY_FLASH	basagc/config.py	/^ENABLE_COMP_ACTY_FLASH = True$/;"	v
+ExtendedVerb	basagc/verbs.py	/^class ExtendedVerb(Verb):$/;"	c
+GUI	basagc/gui.py	/^class GUI:$/;"	c
+HohmannTransfer	basagc/maneuver.py	/^class HohmannTransfer:$/;"	c
+ICON	basagc/config.py	/^ICON = os.path.join(BASE_DIR, "icon.png")$/;"	v
+IMAGES_DIR	basagc/config.py	/^IMAGES_DIR = os.path.join(BASE_DIR, "assets\/")$/;"	v
+IMU	basagc/imu.py	/^class IMU:$/;"	c
+INVALID_VERBS	basagc/verbs.py	/^INVALID_VERBS = [$/;"	v
+IP	basagc/config.py	/^IP = "127.0.0.1"$/;"	v
+KSPNotConnected	basagc/programs.py	/^from basagc.telemachus import get_telemetry, KSPNotConnected, check_connection$/;"	i
+KSPNotConnected	basagc/telemachus.py	/^class KSPNotConnected(Exception):$/;"	c
+KSPNotConnected	basagc/verbs.py	/^from basagc.telemachus import KSPNotConnected, TelemetryNotAvailable$/;"	i
+Key	basagc/gui.py	/^class Key(QtWidgets.QPushButton):$/;"	c
+LICENCE	basagc/config.py	/^    LICENCE = f.readlines()$/;"	v
+LICENCE	basagc/config.py	/^LICENCE = "".join(LICENCE)$/;"	v
+LICENCE_FILE	basagc/config.py	/^LICENCE_FILE = os.path.join(BASE_DIR, "licence")$/;"	v
+LOG_LEVELS	basagc/config.py	/^LOG_LEVELS = [$/;"	v
+LOG_VIEWER	basagc/utils.py	/^LOG_VIEWER = None$/;"	v
+LOOP_TIMER_INTERVAL	basagc/config.py	/^LOOP_TIMER_INTERVAL = 50$/;"	v
+LoadVerb	basagc/verbs.py	/^class LoadVerb(Verb):$/;"	c
+MonitorVerb	basagc/verbs.py	/^class MonitorVerb(DisplayVerb):$/;"	c
+Noun	basagc/nouns.py	/^class Noun(object):$/;"	c
+Noun09	basagc/nouns.py	/^class Noun09(Noun):$/;"	c
+Noun14	basagc/nouns.py	/^class Noun14(Noun):$/;"	c
+Noun17	basagc/nouns.py	/^class Noun17(Noun):$/;"	c
+Noun25	basagc/nouns.py	/^class Noun25(Noun):$/;"	c
+Noun30	basagc/nouns.py	/^class Noun30(Noun):$/;"	c
+Noun31	basagc/nouns.py	/^class Noun31(Noun):$/;"	c
+Noun33	basagc/nouns.py	/^class Noun33(Noun):$/;"	c
+Noun36	basagc/nouns.py	/^class Noun36(Noun):$/;"	c
+Noun38	basagc/nouns.py	/^class Noun38(Noun):$/;"	c
+Noun40	basagc/nouns.py	/^class Noun40(Noun):$/;"	c
+Noun43	basagc/nouns.py	/^class Noun43(Noun):$/;"	c
+Noun44	basagc/nouns.py	/^class Noun44(Noun):$/;"	c
+Noun50	basagc/nouns.py	/^class Noun50(Noun):$/;"	c
+Noun62	basagc/nouns.py	/^class Noun62(Noun):$/;"	c
+Noun95	basagc/nouns.py	/^class Noun95(Noun):$/;"	c
+NounNotAcceptableError	basagc/verbs.py	/^class NounNotAcceptableError(Exception):$/;"	c
+NounNotImplementedError	basagc/nouns.py	/^class NounNotImplementedError(Exception):$/;"	c
+OCTAL_BODY_IDS	basagc/config.py	/^OCTAL_BODY_IDS = {}$/;"	v
+OCTAL_BODY_NAMES	basagc/config.py	/^OCTAL_BODY_NAMES = {value: key for key, value in OCTAL_BODY_IDS.items()}$/;"	v
+OrderedDict	basagc/config.py	/^from collections import OrderedDict$/;"	i
+OrderedDict	basagc/nouns.py	/^from collections import OrderedDict$/;"	i
+OrderedDict	basagc/programs.py	/^from collections import OrderedDict$/;"	i
+OrderedDict	basagc/verbs.py	/^from collections import OrderedDict$/;"	i
+OrderedDictDefaultNoun	basagc/nouns.py	/^class OrderedDictDefaultNoun(OrderedDict):$/;"	c
+PORT	basagc/config.py	/^PORT = "8085"$/;"	v
+PROGRAM_DESCRIPTION	basagc/config.py	/^PROGRAM_DESCRIPTION = "basaGC is a implementation of the Apollo Guidance Computer (AGC) for Kerbal Space Program." + ($/;"	v
+PROGRAM_NAME	basagc/config.py	/^PROGRAM_NAME = "basaGC"$/;"	v
+Program	basagc/programs.py	/^class Program(object):$/;"	c
+Program00	basagc/programs.py	/^class Program00(Program):$/;"	c
+Program01	basagc/programs.py	/^class Program01(Program):$/;"	c
+Program02	basagc/programs.py	/^class Program02(Program):$/;"	c
+Program11	basagc/programs.py	/^class Program11(Program):$/;"	c
+Program15	basagc/programs.py	/^class Program15(Program):$/;"	c
+Program31	basagc/programs.py	/^class Program31(Program):$/;"	c
+Program40	basagc/programs.py	/^class Program40(Program):$/;"	c
+ProgramNotImplementedError	basagc/programs.py	/^class ProgramNotImplementedError(Exception):$/;"	c
+QApplication	basagc.py	/^from PyQt5.QtWidgets import QApplication, QMainWindow$/;"	i
+QMainWindow	basagc.py	/^from PyQt5.QtWidgets import QApplication, QMainWindow$/;"	i
+QTimer	basagc/computer.py	/^from PyQt5.QtCore import QTimer$/;"	i
+QTimer	basagc/programs.py	/^from PyQt5.QtCore import QTimer$/;"	i
+QTimer	basagc/verbs.py	/^from PyQt5.QtCore import QTimer$/;"	i
+QtCore	basagc/gui.py	/^from PyQt5 import QtCore, QtGui, QtWidgets$/;"	i
+QtGui	basagc/gui.py	/^from PyQt5 import QtCore, QtGui, QtWidgets$/;"	i
+QtWidgets	basagc/gui.py	/^from PyQt5 import QtCore, QtGui, QtWidgets$/;"	i
+SHORT_LICENCE	basagc/config.py	/^SHORT_LICENCE = "basaGC is free software; you can redistribute it and\/or modify it under the terms of the GNU " + ($/;"	v
+SLOW_LOOP_TIMER_INTERVAL	basagc/config.py	/^SLOW_LOOP_TIMER_INTERVAL = 2000$/;"	v
+SignDigit	basagc/gui.py	/^class SignDigit(QtWidgets.QLabel):$/;"	c
+TELEMACHUS_BODY_IDS	basagc/config.py	/^TELEMACHUS_BODY_IDS = {$/;"	v
+TELEMACHUS_BODY_IDS	basagc/maneuver.py	/^from basagc.config import TELEMACHUS_BODY_IDS$/;"	i
+TelemetryNotAvailable	basagc/nouns.py	/^from basagc.telemachus import get_telemetry, TelemetryNotAvailable$/;"	i
+TelemetryNotAvailable	basagc/telemachus.py	/^class TelemetryNotAvailable(Exception):$/;"	c
+TelemetryNotAvailable	basagc/verbs.py	/^from basagc.telemachus import KSPNotConnected, TelemetryNotAvailable$/;"	i
+URL	basagc/config.py	/^URL = "http:\/\/" + IP + ":" + PORT + "\/telemachus\/datalink?"$/;"	v
+VERSION	basagc/config.py	/^VERSION = "2.2.0"$/;"	v
+Verb	basagc/verbs.py	/^class Verb:$/;"	c
+Verb01	basagc/verbs.py	/^class Verb01(DisplayVerb):$/;"	c
+Verb02	basagc/verbs.py	/^class Verb02(DisplayVerb):$/;"	c
+Verb03	basagc/verbs.py	/^class Verb03(DisplayVerb):$/;"	c
+Verb04	basagc/verbs.py	/^class Verb04(DisplayVerb):$/;"	c
+Verb05	basagc/verbs.py	/^class Verb05(DisplayVerb):$/;"	c
+Verb06	basagc/verbs.py	/^class Verb06(DisplayVerb):$/;"	c
+Verb11	basagc/verbs.py	/^class Verb11(MonitorVerb):$/;"	c
+Verb12	basagc/verbs.py	/^class Verb12(MonitorVerb):$/;"	c
+Verb13	basagc/verbs.py	/^class Verb13(MonitorVerb):$/;"	c
+Verb14	basagc/verbs.py	/^class Verb14(MonitorVerb):$/;"	c
+Verb15	basagc/verbs.py	/^class Verb15(MonitorVerb):$/;"	c
+Verb16	basagc/verbs.py	/^class Verb16(MonitorVerb):$/;"	c
+Verb17	basagc/verbs.py	/^class Verb17(MonitorVerb):$/;"	c
+Verb21	basagc/verbs.py	/^class Verb21(LoadVerb):$/;"	c
+Verb22	basagc/verbs.py	/^class Verb22(LoadVerb):$/;"	c
+Verb23	basagc/verbs.py	/^class Verb23(LoadVerb):$/;"	c
+Verb34	basagc/verbs.py	/^class Verb34(Verb):$/;"	c
+Verb35	basagc/verbs.py	/^class Verb35(Verb):$/;"	c
+Verb36	basagc/verbs.py	/^class Verb36(Verb):$/;"	c
+Verb37	basagc/verbs.py	/^class Verb37(Verb):$/;"	c
+Verb75	basagc/verbs.py	/^class Verb75(ExtendedVerb):$/;"	c
+Verb82	basagc/verbs.py	/^class Verb82(ExtendedVerb):$/;"	c
+Verb93	basagc/verbs.py	/^class Verb93(ExtendedVerb):$/;"	c
+Verb98	basagc/verbs.py	/^class Verb98(ExtendedVerb):$/;"	c
+Verb99	basagc/verbs.py	/^class Verb99(ExtendedVerb):$/;"	c
+WEBSITE	basagc/config.py	/^WEBSITE = "https:\/\/github.com\/cashelcomputers\/basaGC\/"$/;"	v
+_UNSORTED_ALARM_CODES	basagc/config.py	/^_UNSORTED_ALARM_CODES = {$/;"	v
+__getitem__	basagc/nouns.py	/^    def __getitem__(self, name):$/;"	m	class:OrderedDictDefaultNoun	file:
+__init__	basagc/computer.py	/^    def __init__(self, ui):$/;"	m	class:Computer
+__init__	basagc/dsky.py	/^    def __init__(self, computer, ui):$/;"	m	class:DSKY
+__init__	basagc/gui.py	/^    def __init__(self, central_widget, name, *digits):$/;"	m	class:ControlRegister
+__init__	basagc/gui.py	/^    def __init__(self, central_widget, name, geometry):$/;"	m	class:Digit
+__init__	basagc/gui.py	/^    def __init__(self, central_widget, name, geometry):$/;"	m	class:SignDigit
+__init__	basagc/gui.py	/^    def __init__(self, central_widget, name, image, geometry):$/;"	m	class:Key
+__init__	basagc/gui.py	/^    def __init__(self, central_widget, name, image_on, image_off, geometry):$/;"	m	class:Annunciator
+__init__	basagc/gui.py	/^    def __init__(self, central_widget, sign_digit, *digits):$/;"	m	class:DataRegister
+__init__	basagc/gui.py	/^    def __init__(self, main_window):$/;"	m	class:GUI
+__init__	basagc/imu.py	/^    def __init__(self, computer):$/;"	m	class:IMU
+__init__	basagc/maneuver.py	/^    def __init__(self):$/;"	m	class:HohmannTransfer
+__init__	basagc/maneuver.py	/^    def __init__(self, delta_v, direction, time_of_ignition, time_of_node, burn_duration, recalc_function=None):$/;"	m	class:Burn
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:Noun09
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:Noun14
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:Noun17
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:Noun25
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:Noun30
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:Noun31
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:Noun33
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:Noun36
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:Noun38
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:Noun40
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:Noun43
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:Noun44
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:Noun50
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:Noun62
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:Noun95
+__init__	basagc/nouns.py	/^    def __init__(self):$/;"	m	class:OrderedDictDefaultNoun
+__init__	basagc/nouns.py	/^    def __init__(self, description, number):$/;"	m	class:Noun
+__init__	basagc/programs.py	/^    def __init__(self):$/;"	m	class:Program00
+__init__	basagc/programs.py	/^    def __init__(self):$/;"	m	class:Program01
+__init__	basagc/programs.py	/^    def __init__(self):$/;"	m	class:Program02
+__init__	basagc/programs.py	/^    def __init__(self):$/;"	m	class:Program11
+__init__	basagc/programs.py	/^    def __init__(self):$/;"	m	class:Program15
+__init__	basagc/programs.py	/^    def __init__(self):$/;"	m	class:Program31
+__init__	basagc/programs.py	/^    def __init__(self):$/;"	m	class:Program40
+__init__	basagc/programs.py	/^    def __init__(self, description, number):$/;"	m	class:Program
+__init__	basagc/verbs.py	/^    def __init__(self):$/;"	m	class:Verb34
+__init__	basagc/verbs.py	/^    def __init__(self):$/;"	m	class:Verb35
+__init__	basagc/verbs.py	/^    def __init__(self):$/;"	m	class:Verb37
+__init__	basagc/verbs.py	/^    def __init__(self):$/;"	m	class:Verb75
+__init__	basagc/verbs.py	/^    def __init__(self):$/;"	m	class:Verb82
+__init__	basagc/verbs.py	/^    def __init__(self):$/;"	m	class:Verb93
+__init__	basagc/verbs.py	/^    def __init__(self):$/;"	m	class:Verb98
+__init__	basagc/verbs.py	/^    def __init__(self, **kwargs):$/;"	m	class:Verb99
+__init__	basagc/verbs.py	/^    def __init__(self, name, verb_number):$/;"	m	class:ExtendedVerb
+__init__	basagc/verbs.py	/^    def __init__(self, name, verb_number, noun):$/;"	m	class:DisplayVerb
+__init__	basagc/verbs.py	/^    def __init__(self, name, verb_number, noun):$/;"	m	class:LoadVerb
+__init__	basagc/verbs.py	/^    def __init__(self, name, verb_number, noun):$/;"	m	class:MonitorVerb
+__init__	basagc/verbs.py	/^    def __init__(self, name, verb_number, noun=None):$/;"	m	class:Verb
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb01
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb02
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb03
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb04
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb05
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb06
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb11
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb12
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb13
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb14
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb15
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb16
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb17
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb21
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb22
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb23
+__init__	basagc/verbs.py	/^    def __init__(self, noun):$/;"	m	class:Verb36
+__str__	basagc/programs.py	/^    def __str__(self):$/;"	m	class:Program	file:
+__str__	basagc/verbs.py	/^    def __str__(self):$/;"	m	class:Verb	file:
+_accept_enable_engine	basagc/maneuver.py	/^    def _accept_enable_engine(self, data):$/;"	m	class:Burn
+_accept_initial_mass_fractional_part	basagc/programs.py	/^    def _accept_initial_mass_fractional_part(self, mass):$/;"	m	class:Program15
+_accept_initial_mass_fractional_part	basagc/programs.py	/^    def _accept_initial_mass_fractional_part(self, mass):$/;"	m	class:Program31
+_accept_initial_mass_whole_part	basagc/programs.py	/^    def _accept_initial_mass_whole_part(self, mass):$/;"	m	class:Program15
+_accept_initial_mass_whole_part	basagc/programs.py	/^    def _accept_initial_mass_whole_part(self, mass):$/;"	m	class:Program31
+_accept_isp	basagc/programs.py	/^    def _accept_isp(self, isp):$/;"	m	class:Program15
+_accept_isp	basagc/programs.py	/^    def _accept_isp(self, isp):$/;"	m	class:Program31
+_accept_thrust_fractional_part	basagc/programs.py	/^    def _accept_thrust_fractional_part(self, thrust):$/;"	m	class:Program15
+_accept_thrust_fractional_part	basagc/programs.py	/^    def _accept_thrust_fractional_part(self, thrust):$/;"	m	class:Program31
+_accept_thrust_whole_part	basagc/programs.py	/^    def _accept_thrust_whole_part(self, thrust):$/;"	m	class:Program15
+_accept_thrust_whole_part	basagc/programs.py	/^    def _accept_thrust_whole_part(self, thrust):$/;"	m	class:Program31
+_begin_burn	basagc/maneuver.py	/^    def _begin_burn(self):$/;"	m	class:Burn
+_blink_event	basagc/dsky.py	/^    def _blink_event(self):$/;"	m	class:DSKY
+_calculate_accumulated_delta_v	basagc/maneuver.py	/^    def _calculate_accumulated_delta_v(self):$/;"	m	class:Burn
+_calculate_velocity_at_cutoff	basagc/maneuver.py	/^    def _calculate_velocity_at_cutoff(self):$/;"	m	class:Burn
+_coarse_start_time_monitor	basagc/maneuver.py	/^    def _coarse_start_time_monitor(self):$/;"	m	class:Burn
+_comp_acty_off	basagc/computer.py	/^    def _comp_acty_off(self):$/;"	m	class:Computer
+_disable_directional_autopilot	basagc/maneuver.py	/^    def _disable_directional_autopilot(self):$/;"	m	class:Burn
+_enable_directional_autopilot	basagc/maneuver.py	/^    def _enable_directional_autopilot(self):$/;"	m	class:Burn
+_fine_start_time_monitor	basagc/maneuver.py	/^    def _fine_start_time_monitor(self):$/;"	m	class:Burn
+_flash_verb_noun	basagc/gui.py	/^    def _flash_verb_noun(self):$/;"	m	class:GUI
+_format_output_data	basagc/verbs.py	/^    def _format_output_data(self, data):$/;"	m	class:Verb
+_send_output	basagc/verbs.py	/^    def _send_output(self):$/;"	m	class:MonitorVerb
+_ten_minute_monitor	basagc/programs.py	/^    def _ten_minute_monitor(self):$/;"	m	class:Program40
+_thrust_monitor	basagc/maneuver.py	/^    def _thrust_monitor(self):$/;"	m	class:Burn
+_update_display	basagc/verbs.py	/^    def _update_display(self):$/;"	m	class:MonitorVerb
+accept_input	basagc/verbs.py	/^    def accept_input(self, data):$/;"	m	class:LoadVerb
+accept_uplink	basagc/computer.py	/^    def accept_uplink(self):$/;"	m	class:Computer
+add_burn	basagc/computer.py	/^    def add_burn(self, burn_object):$/;"	m	class:Computer
+add_maneuver_node	basagc/maneuver.py	/^    def add_maneuver_node(self):$/;"	m	class:Burn
+add_maneuver_node	basagc/telemachus.py	/^def add_maneuver_node(ut, delta_v):$/;"	f
+add_to_mainloop	basagc/computer.py	/^    def add_to_mainloop(self, func):$/;"	m	class:Computer
+app	basagc.py	/^    app = QApplication(sys.argv)$/;"	v
+app	basagc/gui.py	/^    app = QtWidgets.QApplication(sys.argv)$/;"	v
+argparse	basagc.py	/^import argparse$/;"	i
+args	basagc.py	/^    args = parser.parse_args()$/;"	v
+background	basagc/verbs.py	/^    def background(self):$/;"	m	class:MonitorVerb
+blank	basagc/gui.py	/^    def blank(self):$/;"	m	class:DataRegister
+blank_all_registers	basagc/dsky.py	/^    def blank_all_registers(self):$/;"	m	class:DSKY
+blank_register	basagc/dsky.py	/^    def blank_register(self, register):$/;"	m	class:DSKY
+blink_register	basagc/dsky.py	/^    def blink_register(self, register):$/;"	m	class:DSKY
+calc_burn_duration	basagc/maneuver.py	/^def calc_burn_duration(initial_mass, thrust, specific_impulse, delta_v):$/;"	f
+calculate	basagc/maneuver.py	/^    def calculate(self):$/;"	m	class:HohmannTransfer
+calculate_burn_timings	basagc/maneuver.py	/^    def calculate_burn_timings(self):$/;"	m	class:HohmannTransfer
+calculate_delta_v	basagc/maneuver.py	/^    def calculate_delta_v(departure_altitude, destination_altitude, departure_body="Kerbin"):$/;"	m	class:HohmannTransfer
+calculate_final_delta_v	basagc/maneuver.py	/^    def calculate_final_delta_v(self):$/;"	m	class:HohmannTransfer
+calculate_initial_delta_v	basagc/maneuver.py	/^    def calculate_initial_delta_v(self):$/;"	m	class:HohmannTransfer
+calculate_maneuver	basagc/programs.py	/^    def calculate_maneuver(self):$/;"	m	class:Program15
+calculate_maneuver	basagc/programs.py	/^    def calculate_maneuver(self):$/;"	m	class:Program31
+calculate_other_parameters	basagc/maneuver.py	/^    def calculate_other_parameters(self):$/;"	m	class:HohmannTransfer
+calculate_phase_angle	basagc/maneuver.py	/^    def calculate_phase_angle(departure_orbit, destination_orbit, grav_param):$/;"	m	class:HohmannTransfer
+calculate_sma_transfer_ellipse	basagc/maneuver.py	/^    def calculate_sma_transfer_ellipse(self):$/;"	m	class:HohmannTransfer
+calculate_time_to_ignition	basagc/maneuver.py	/^    def calculate_time_to_ignition(self):$/;"	m	class:Burn
+calculate_total_delta_v	basagc/maneuver.py	/^    def calculate_total_delta_v(self):$/;"	m	class:HohmannTransfer
+calculate_velocity_final	basagc/maneuver.py	/^    def calculate_velocity_final(self):$/;"	m	class:HohmannTransfer
+calculate_velocity_final_on_transfer_orbit	basagc/maneuver.py	/^    def calculate_velocity_final_on_transfer_orbit(self):$/;"	m	class:HohmannTransfer
+calculate_velocity_initial	basagc/maneuver.py	/^    def calculate_velocity_initial(self):$/;"	m	class:HohmannTransfer
+calculate_velocity_initial_on_transfer_orbit	basagc/maneuver.py	/^    def calculate_velocity_initial_on_transfer_orbit(self):$/;"	m	class:HohmannTransfer
+charin	basagc/computer.py	/^    def charin(self, keypress):$/;"	m	class:Computer
+charin	basagc/routines.py	/^def charin(keypress, state, dsky, computer):$/;"	f
+check_connection	basagc/imu.py	/^from basagc.telemachus import check_connection, get_telemetry$/;"	i
+check_connection	basagc/programs.py	/^from basagc.telemachus import get_telemetry, KSPNotConnected, check_connection$/;"	i
+check_connection	basagc/telemachus.py	/^def check_connection():$/;"	f
+check_for_gimbal_lock	basagc/imu.py	/^    def check_for_gimbal_lock(self):$/;"	m	class:IMU
+check_for_liftoff	basagc/programs.py	/^    def check_for_liftoff(self):$/;"	m	class:Program02
+check_orbital_parameters	basagc/maneuver.py	/^    def check_orbital_parameters():$/;"	m	class:HohmannTransfer
+clsmembers	basagc/nouns.py	/^clsmembers = inspect.getmembers(sys.modules[__name__], inspect.isclass)$/;"	v
+clsmembers	basagc/programs.py	/^clsmembers = inspect.getmembers(sys.modules[__name__], inspect.isclass)$/;"	v
+clsmembers	basagc/verbs.py	/^clsmembers = inspect.getmembers(sys.modules[__name__], inspect.isclass)$/;"	v
+commands	basagc/telemachus.py	/^commands = {}$/;"	v
+computer	basagc.py	/^    computer = computer.Computer(ui)$/;"	v
+computer	basagc.py	/^    from basagc import gui, computer  # import the rest$/;"	i
+computer	basagc/gui.py	/^    computer = Computer(ui)$/;"	v
+computer	basagc/maneuver.py	/^computer = None$/;"	v
+computer	basagc/nouns.py	/^computer = None$/;"	v
+computer	basagc/programs.py	/^    computer = None$/;"	v	class:Program
+computer	basagc/verbs.py	/^    computer = None$/;"	v	class:Verb
+computer_instance	basagc/computer.py	/^    computer_instance = None$/;"	v	class:Computer
+computer_restart	basagc/computer.py	/^    def computer_restart(self, alarm_code, message=None):$/;"	m	class:Computer
+config	basagc.py	/^from basagc import config  # need to import this first to set debug flag$/;"	i
+config	basagc/computer.py	/^from basagc import config$/;"	i
+config	basagc/dsky.py	/^from basagc import utils, config$/;"	i
+config	basagc/gui.py	/^from basagc import config$/;"	i
+config	basagc/imu.py	/^from basagc import utils, config$/;"	i
+config	basagc/maneuver.py	/^from basagc import config, telemachus, utils$/;"	i
+config	basagc/nouns.py	/^from basagc import config$/;"	i
+config	basagc/programs.py	/^from basagc import config$/;"	i
+config	basagc/routines.py	/^from basagc import utils, config$/;"	i
+config	basagc/telemachus.py	/^from basagc import config$/;"	i
+config	basagc/utils.py	/^from basagc import config$/;"	i
+config	basagc/verbs.py	/^from basagc import config, nouns, utils, dsky$/;"	i
+current_log_level	basagc/config.py	/^current_log_level = "INFO"$/;"	v
+cut_throttle	basagc/telemachus.py	/^def cut_throttle():$/;"	f
+datefmt	basagc/utils.py	/^                    datefmt='%d\/%m\/%y %H:%M',$/;"	v
+debug	basagc.py	/^from basagc import config  # need to import this first to set debug flag$/;"	i
+disable_direction_autopilot	basagc/computer.py	/^    def disable_direction_autopilot(self):$/;"	m	class:Computer
+disable_smartass	basagc/telemachus.py	/^def disable_smartass():$/;"	f
+display	basagc/gui.py	/^    def display(self, data):$/;"	m	class:ControlRegister
+display	basagc/gui.py	/^    def display(self, data):$/;"	m	class:DataRegister
+display	basagc/gui.py	/^    def display(self, digit_to_display):$/;"	m	class:SignDigit
+display	basagc/gui.py	/^    def display(self, number_to_display):$/;"	m	class:Digit
+dsky	basagc/computer.py	/^from basagc import dsky$/;"	i
+dsky	basagc/verbs.py	/^from basagc import config, nouns, utils, dsky$/;"	i
+dsky_instance	basagc/dsky.py	/^    dsky_instance = None$/;"	v	class:DSKY
+enable_burn	basagc/computer.py	/^    def enable_burn(self):$/;"	m	class:Computer
+error	basagc/telemachus.py	/^import urllib.error$/;"	i
+execute	basagc/maneuver.py	/^    def execute(self):$/;"	m	class:Burn
+execute	basagc/maneuver.py	/^    def execute(self):$/;"	m	class:HohmannTransfer
+execute	basagc/programs.py	/^    def execute(self):  # FIXME: this needs to be refactored into something better, just trying to get it working now$/;"	m	class:Program31
+execute	basagc/programs.py	/^    def execute(self):$/;"	m	class:Program
+execute	basagc/programs.py	/^    def execute(self):$/;"	m	class:Program01
+execute	basagc/programs.py	/^    def execute(self):$/;"	m	class:Program02
+execute	basagc/programs.py	/^    def execute(self):$/;"	m	class:Program11
+execute	basagc/programs.py	/^    def execute(self):$/;"	m	class:Program15
+execute	basagc/programs.py	/^    def execute(self):$/;"	m	class:Program40
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:DisplayVerb
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb01
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb02
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb03
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb04
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb05
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb06
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb16
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb21
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb22
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb23
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb34
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb35
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb36
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb37
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb75
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb82
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb93
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb98
+execute	basagc/verbs.py	/^    def execute(self):$/;"	m	class:Verb99
+execute_program	basagc/computer.py	/^    def execute_program(self, program_number):$/;"	m	class:Computer
+execute_verb	basagc/computer.py	/^    def execute_verb(self, verb=None, noun=None, **kwargs):$/;"	m	class:Computer
+filemode	basagc/utils.py	/^                    filemode='a')$/;"	v
+filename	basagc/utils.py	/^                    filename='..\/gc.log',$/;"	v
+first	basagc.py	/^from basagc import config  # need to import this first to set debug flag$/;"	i
+flag	basagc.py	/^from basagc import config  # need to import this first to set debug flag$/;"	i
+flash_comp_acty	basagc/computer.py	/^    def flash_comp_acty(self, duration=config.COMP_ACTY_FLASH_DURATION):$/;"	m	class:Computer
+flash_comp_acty	basagc/dsky.py	/^    def flash_comp_acty(self):$/;"	m	class:DSKY
+flip	basagc/gui.py	/^    def flip(self):$/;"	m	class:Digit
+format	basagc/utils.py	/^                    format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',$/;"	v
+gc_log	basagc/utils.py	/^gc_log = logging.getLogger()$/;"	v
+get_api_listing	basagc/telemachus.py	/^def get_api_listing():$/;"	f
+get_output_widgets	basagc/gui.py	/^    def get_output_widgets(self):$/;"	m	class:GUI
+get_register	basagc/dsky.py	/^    def get_register(self, register):$/;"	m	class:DSKY
+get_telemetry	basagc/imu.py	/^from basagc.telemachus import check_connection, get_telemetry$/;"	i
+get_telemetry	basagc/maneuver.py	/^from basagc.telemachus import get_telemetry$/;"	i
+get_telemetry	basagc/nouns.py	/^from basagc.telemachus import get_telemetry, TelemetryNotAvailable$/;"	i
+get_telemetry	basagc/programs.py	/^from basagc.telemachus import get_telemetry, KSPNotConnected, check_connection$/;"	i
+get_telemetry	basagc/telemachus.py	/^def get_telemetry(data, body_number=None):$/;"	f
+get_time_to_node	basagc/maneuver.py	/^    def get_time_to_node(phase_angle_difference, orbital_period, departure_orbital_period):$/;"	m	class:HohmannTransfer
+go_to_poo	basagc/computer.py	/^    def go_to_poo(self):$/;"	m	class:Computer
+gui	basagc.py	/^    from basagc import gui, computer  # import the rest$/;"	i
+handle_control_register_load	basagc/routines.py	/^    def handle_control_register_load():$/;"	f	function:charin
+handle_data_register_load	basagc/routines.py	/^    def handle_data_register_load():$/;"	f	function:charin
+handle_entr_keypress	basagc/routines.py	/^    def handle_entr_keypress():$/;"	f	function:charin
+handle_expected_data	basagc/routines.py	/^    def handle_expected_data():$/;"	f	function:charin
+handle_key_release_keypress	basagc/routines.py	/^    def handle_key_release_keypress():$/;"	f	function:charin
+handle_noun_entry	basagc/routines.py	/^    def handle_noun_entry():$/;"	f	function:charin
+handle_noun_keypress	basagc/routines.py	/^    def handle_noun_keypress():$/;"	f	function:charin
+handle_reset_keypress	basagc/routines.py	/^    def handle_reset_keypress():$/;"	f	function:charin
+handle_verb_entry	basagc/routines.py	/^    def handle_verb_entry():$/;"	f	function:charin
+handle_verb_keypress	basagc/routines.py	/^    def handle_verb_keypress():$/;"	f	function:charin
+import	basagc.py	/^    from basagc import gui, computer  # import the rest$/;"	i
+import	basagc.py	/^from basagc import config  # need to import this first to set debug flag$/;"	i
+imu	basagc/computer.py	/^from basagc import imu$/;"	i
+inspect	basagc/nouns.py	/^import inspect$/;"	i
+inspect	basagc/programs.py	/^import inspect$/;"	i
+inspect	basagc/verbs.py	/^import inspect$/;"	i
+invert	basagc/gui.py	/^    def invert(self):$/;"	m	class:Annunciator
+json	basagc/telemachus.py	/^import json$/;"	i
+lint	basagc/dsky.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+lint	basagc/gui.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+lint	basagc/imu.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+lint	basagc/maneuver.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+lint	basagc/nouns.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+lint	basagc/programs.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+lint	basagc/routines.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+lint	basagc/telemachus.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+lint	basagc/utils.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+lint	basagc/verbs.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+log	basagc/utils.py	/^def log(message="", log_level="DEBUG"):$/;"	f
+log	basagc/verbs.py	/^log = logging.getLogger("Verbs")$/;"	v
+logging	basagc/utils.py	/^import logging$/;"	i
+logging	basagc/verbs.py	/^import logging$/;"	i
+main_loop	basagc/computer.py	/^    def main_loop(self):$/;"	m	class:Computer
+main_window	basagc.py	/^    main_window = QMainWindow()$/;"	v
+main_window	basagc/gui.py	/^    main_window = QtWidgets.QMainWindow()$/;"	v
+maneuver	basagc/computer.py	/^from basagc import maneuver$/;"	i
+maneuver	basagc/programs.py	/^from basagc import utils, maneuver$/;"	i
+math	basagc/maneuver.py	/^import math$/;"	i
+math	basagc/programs.py	/^import math$/;"	i
+need	basagc.py	/^from basagc import config  # need to import this first to set debug flag$/;"	i
+nouns	basagc/computer.py	/^from basagc import nouns$/;"	i
+nouns	basagc/nouns.py	/^nouns = OrderedDictDefaultNoun()$/;"	v
+nouns	basagc/verbs.py	/^from basagc import config, nouns, utils, dsky$/;"	i
+octal	basagc/nouns.py	/^def octal(value):$/;"	f
+off	basagc/gui.py	/^    def off(self):$/;"	m	class:Annunciator
+ok	basagc/dsky.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+ok	basagc/gui.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+ok	basagc/imu.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+ok	basagc/maneuver.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+ok	basagc/nouns.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+ok	basagc/programs.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+ok	basagc/routines.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+ok	basagc/telemachus.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+ok	basagc/utils.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+ok	basagc/verbs.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+on	basagc/computer.py	/^    def on(self):$/;"	m	class:Computer
+on	basagc/gui.py	/^    def on(self):$/;"	m	class:Annunciator
+on	basagc/imu.py	/^    def on(self):$/;"	m	class:IMU
+operator_error	basagc/computer.py	/^    def operator_error(self, message=None):$/;"	m	class:Computer
+os	basagc/computer.py	/^import os$/;"	i
+os	basagc/config.py	/^import os$/;"	i
+os	basagc/gui.py	/^import os$/;"	i
+parse	basagc/telemachus.py	/^import urllib.parse$/;"	i
+parser	basagc.py	/^    parser = argparse.ArgumentParser(description='basaGC: AGC for KSP')$/;"	v
+phase_angle_difference	basagc/maneuver.py	/^    def phase_angle_difference(self):$/;"	m	class:HohmannTransfer
+poodoo_abort	basagc/computer.py	/^    def poodoo_abort(self, alarm_code, message=None):$/;"	m	class:Computer
+print_all_telemetry	basagc/telemachus.py	/^def print_all_telemetry():$/;"	f
+print_maneuver_data	basagc/maneuver.py	/^    def print_maneuver_data(self):$/;"	m	class:HohmannTransfer
+process_uplink_data	basagc/computer.py	/^    def process_uplink_data(self):$/;"	m	class:Computer
+program_alarm	basagc/computer.py	/^    def program_alarm(self, alarm_code):$/;"	m	class:Computer
+program_restart	basagc/computer.py	/^    def program_restart(self, alarm_code, message=None):$/;"	m	class:Computer
+programs	basagc/computer.py	/^from basagc import programs$/;"	i
+programs	basagc/programs.py	/^programs = OrderedDict()$/;"	v
+quit	basagc/computer.py	/^    def quit(self):$/;"	m	class:Computer
+recalculate	basagc/maneuver.py	/^    def recalculate(self):$/;"	m	class:Burn
+receive_data	basagc/nouns.py	/^    def receive_data(self, data):$/;"	m	class:Noun30
+receive_data	basagc/verbs.py	/^    def receive_data(self, data):$/;"	m	class:Verb
+receive_data	basagc/verbs.py	/^    def receive_data(self, data):$/;"	m	class:Verb37
+receive_data	basagc/verbs.py	/^    def receive_data(self, data):$/;"	m	class:Verb98
+register_charin	basagc/computer.py	/^    def register_charin(self):$/;"	m	class:Computer
+register_input	basagc/gui.py	/^    def register_input(self, output_function):$/;"	m	class:GUI
+register_key_event_handler	basagc/gui.py	/^    def register_key_event_handler(self, handler_func):$/;"	m	class:GUI
+remove_burn	basagc/computer.py	/^    def remove_burn(self):$/;"	m	class:Computer
+remove_from_mainloop	basagc/computer.py	/^    def remove_from_mainloop(self, func):$/;"	m	class:Computer
+request	basagc/telemachus.py	/^import urllib.request$/;"	i
+request_data	basagc/dsky.py	/^    def request_data(self, requesting_object, display_location, is_proceed_available=False):$/;"	m	class:DSKY
+reset_alarm_codes	basagc/computer.py	/^    def reset_alarm_codes(self):$/;"	m	class:Computer
+reset_annunciators	basagc/dsky.py	/^    def reset_annunciators(self):$/;"	m	class:DSKY
+rest	basagc.py	/^    from basagc import gui, computer  # import the rest$/;"	i
+restart	basagc/programs.py	/^    def restart(self):$/;"	m	class:Program
+resume	basagc/verbs.py	/^    def resume(self):$/;"	m	class:MonitorVerb
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun09
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun14
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun17
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun25
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun30
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun31
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun33
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun36
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun38
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun40
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun43
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun44
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun50
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun62
+return_data	basagc/nouns.py	/^    def return_data(self):$/;"	m	class:Noun95
+routines	basagc/computer.py	/^from basagc import routines$/;"	i
+seconds_to_time	basagc/utils.py	/^def seconds_to_time(seconds):$/;"	f
+send_command_to_ksp	basagc/telemachus.py	/^def send_command_to_ksp(command_string):$/;"	f
+send_keypress	basagc/gui.py	/^    def send_keypress(self):$/;"	m	class:Key
+servicer	basagc/computer.py	/^    def servicer(self):$/;"	m	class:Computer
+set	basagc.py	/^from basagc import config  # need to import this first to set debug flag$/;"	i
+set_annunciator	basagc/dsky.py	/^    def set_annunciator(self, name, set_to=True):$/;"	m	class:DSKY
+set_coarse_align	basagc/imu.py	/^    def set_coarse_align(self):$/;"	m	class:IMU
+set_fine_align	basagc/imu.py	/^    def set_fine_align(self):$/;"	m	class:IMU
+set_key_event_handler	basagc/gui.py	/^    def set_key_event_handler(self, handler_func):$/;"	m	class:Key
+set_keyboard_state	basagc/computer.py	/^    def set_keyboard_state(self, state_name, new_value):$/;"	m	class:Computer
+set_mechjeb_smartass	basagc/telemachus.py	/^def set_mechjeb_smartass(direction):$/;"	f
+set_register	basagc/dsky.py	/^    def set_register(self, value, register, digit=None):$/;"	m	class:DSKY
+set_throttle	basagc/telemachus.py	/^def set_throttle(throttle_percent):$/;"	f
+set_tooltip	basagc/dsky.py	/^    def set_tooltip(self, register, tooltip):$/;"	m	class:DSKY
+set_tooltip	basagc/gui.py	/^    def set_tooltip(self, tooltip):$/;"	m	class:ControlRegister
+set_tooltip	basagc/gui.py	/^    def set_tooltip(self, tooltip):$/;"	m	class:DataRegister
+set_tooltip	basagc/gui.py	/^    def set_tooltip(self, tooltip):$/;"	m	class:Digit
+set_tooltip	basagc/gui.py	/^    def set_tooltip(self, tooltip):$/;"	m	class:SignDigit
+set_trace	basagc/computer.py	/^    from pudb import set_trace$/;"	i
+set_trace	basagc/dsky.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+set_trace	basagc/gui.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+set_trace	basagc/imu.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+set_trace	basagc/maneuver.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+set_trace	basagc/maneuver.py	/^from pudb import set_trace$/;"	i
+set_trace	basagc/nouns.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+set_trace	basagc/programs.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+set_trace	basagc/routines.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+set_trace	basagc/telemachus.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+set_trace	basagc/utils.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+set_trace	basagc/verbs.py	/^    from pudb import set_trace  # lint:ok$/;"	i
+set_verb_noun_flash	basagc/gui.py	/^    def set_verb_noun_flash(self, state_to_set):$/;"	m	class:GUI
+setup_ui	basagc/gui.py	/^    def setup_ui(self, main_window):$/;"	m	class:GUI
+slow_loop	basagc/computer.py	/^    def slow_loop(self):$/;"	m	class:Computer
+start_annunciator_blink	basagc/dsky.py	/^    def start_annunciator_blink(self, name):$/;"	m	class:DSKY
+start_blink	basagc/gui.py	/^    def start_blink(self):$/;"	m	class:Digit
+start_blink	basagc/gui.py	/^    def start_blink(self, interval=500):$/;"	m	class:Annunciator
+start_monitor	basagc/verbs.py	/^    def start_monitor(self):$/;"	m	class:MonitorVerb
+stop_annunciator_blink	basagc/dsky.py	/^    def stop_annunciator_blink(self, name):$/;"	m	class:DSKY
+stop_blink	basagc/dsky.py	/^    def stop_blink(self):$/;"	m	class:DSKY
+stop_blink	basagc/gui.py	/^    def stop_blink(self):$/;"	m	class:Annunciator
+stop_blink	basagc/gui.py	/^    def stop_blink(self):$/;"	m	class:Digit
+stop_comp_acty_flash	basagc/dsky.py	/^    def stop_comp_acty_flash(self, event):$/;"	m	class:DSKY
+sys	basagc.py	/^import sys$/;"	i
+sys	basagc/gui.py	/^import sys$/;"	i
+sys	basagc/nouns.py	/^import sys$/;"	i
+sys	basagc/programs.py	/^import sys$/;"	i
+sys	basagc/verbs.py	/^import sys$/;"	i
+telemachus	basagc/computer.py	/^from basagc import telemachus$/;"	i
+telemachus	basagc/maneuver.py	/^from basagc import config, telemachus, utils$/;"	i
+telemachus	basagc/verbs.py	/^from basagc import telemachus$/;"	i
+telemetry	basagc/telemachus.py	/^telemetry = {}$/;"	v
+terminate	basagc/maneuver.py	/^    def terminate(self):$/;"	m	class:Burn
+terminate	basagc/programs.py	/^    def terminate(self):$/;"	m	class:Program
+terminate	basagc/programs.py	/^    def terminate(self):$/;"	m	class:Program40
+terminate	basagc/verbs.py	/^    def terminate(self):$/;"	m	class:MonitorVerb
+terminate	basagc/verbs.py	/^    def terminate(self):$/;"	m	class:Verb
+terminate	basagc/verbs.py	/^    def terminate(self):$/;"	m	class:Verb35
+the	basagc.py	/^    from basagc import gui, computer  # import the rest$/;"	i
+this	basagc.py	/^from basagc import config  # need to import this first to set debug flag$/;"	i
+time	basagc/utils.py	/^import time$/;"	i
+time_to_transfer	basagc/maneuver.py	/^    def time_to_transfer(departure_orbit, destination_orbit, grav_param):$/;"	m	class:HohmannTransfer
+timeout	basagc/programs.py	/^    def timeout(self):$/;"	m	class:Program01
+timeout	basagc/programs.py	/^    def timeout(self):$/;"	m	class:Program02
+to	basagc.py	/^from basagc import config  # need to import this first to set debug flag$/;"	i
+ui	basagc.py	/^    ui = gui.GUI(main_window)$/;"	v
+ui	basagc/gui.py	/^    ui = GUI(main_window)$/;"	v
+update_gyro_angles	basagc/imu.py	/^    def update_gyro_angles(self):$/;"	m	class:IMU
+update_maneuver_node	basagc/telemachus.py	/^def update_maneuver_node(ut, delta_v):$/;"	f
+update_parameters	basagc/maneuver.py	/^    def update_parameters(self):$/;"	m	class:HohmannTransfer
+update_parameters	basagc/programs.py	/^    def update_parameters(self):$/;"	m	class:Program31
+urllib	basagc/telemachus.py	/^import urllib.error$/;"	i
+urllib	basagc/telemachus.py	/^import urllib.parse$/;"	i
+urllib	basagc/telemachus.py	/^import urllib.request$/;"	i
+utils	basagc/computer.py	/^from basagc import utils$/;"	i
+utils	basagc/dsky.py	/^from basagc import utils, config$/;"	i
+utils	basagc/gui.py	/^from basagc import utils$/;"	i
+utils	basagc/imu.py	/^from basagc import utils, config$/;"	i
+utils	basagc/maneuver.py	/^from basagc import config, telemachus, utils$/;"	i
+utils	basagc/nouns.py	/^from basagc import utils$/;"	i
+utils	basagc/programs.py	/^from basagc import utils, maneuver$/;"	i
+utils	basagc/routines.py	/^from basagc import utils, config$/;"	i
+utils	basagc/telemachus.py	/^from basagc import utils$/;"	i
+utils	basagc/verbs.py	/^from basagc import config, nouns, utils, dsky$/;"	i
+value	basagc/config.py	/^    value = oct(int(value))$/;"	v
+value	basagc/config.py	/^    value = value[2:]$/;"	v
+verb_noun_flash_off	basagc/dsky.py	/^    def verb_noun_flash_off(self):$/;"	m	class:DSKY
+verb_noun_flash_on	basagc/dsky.py	/^    def verb_noun_flash_on(self):$/;"	m	class:DSKY
+verbs	basagc/computer.py	/^from basagc import verbs$/;"	i
+verbs	basagc/verbs.py	/^verbs = OrderedDict()$/;"	v
