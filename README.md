@@ -16,6 +16,13 @@ Prerequisites:
 1.0.5 (for KSP 1.1, try [this release](https://github.com/tcannonfodder/Telemachus/releases/tag/v1.5.32.1))
 - [Mechjeb mod](https://github.com/MuMech/MechJeb2)
 
+- For KSP 1.1.2
+- [Telemachus 2.0](https://github.com/richardbunt/Telemachus)
+- [Python 3.5.1](https://www.python.org/downloads/release/python-351/)
+- [PyQt 5.6](https://www.riverbankcomputing.com/software/pyqt/download5)
+- [SIP 4.18](https://www.riverbankcomputing.com/software/sip/download)
+
+
 Installation:
 ---
 See [doc/installation.md](https://github.com/cashelcomputers/basaGC/blob/master/doc/installation.md)
